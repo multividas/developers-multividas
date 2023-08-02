@@ -19,7 +19,8 @@
     "website": "soulaimaneyahya.com"
   },
   "license": "MIT",
-  "devDependencies": {
-    "vuepress": "^1.9.9"
+  "dependencies": {
+    "vitepress": "^v1.0.0-beta.7",
+    "vue": "^3.2.45"
   }
 }
