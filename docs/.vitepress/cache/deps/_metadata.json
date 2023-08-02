@@ -1,0 +1,29 @@
+{
+  "hash": "be89df16",
+  "browserHash": "590a9eb2",
+  "optimized": {
+    "vue": {
+      "src": "../../../../../../../../home/soulaimaneyh/.npm/_npx/21119/lib/node_modules/vitepress/node_modules/vue/dist/vue.runtime.esm-browser.js",
+      "file": "vue.js",
+      "fileHash": "aabba320",
+      "needsInterop": false
+    },
+    "vitepress > @vue/devtools-api": {
+      "src": "../../../../../node_modules/@vue/devtools-api/lib/esm/index.js",
+      "file": "vitepress___@vue_devtools-api.js",
+      "fileHash": "812b33b3",
+      "needsInterop": false
+    },
+    "@theme/index": {
+      "src": "../../../../../../../../home/soulaimaneyh/.npm/_npx/21119/lib/node_modules/vitepress/dist/client/theme-default/index.js",
+      "file": "@theme_index.js",
+      "fileHash": "40ffddab",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-SECIOJ6S": {
+      "file": "chunk-SECIOJ6S.js"
+    }
+  }
+}
