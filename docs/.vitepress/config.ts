@@ -17,25 +17,23 @@ export default defineConfig({
 
     nav: nav(),
 
-    sidebar: [
-      {
-        text: 'Guide',
-        items: [
-          { text: 'Introduction', link: '/introduction' },
-          { text: 'Getting Started', link: '/getting-started' },
-          { text: 'Models', link: '/models' },
-          { text: 'Threads', link: '/threads' },
-          { text: 'Comments', link: '/comments' },
-          { text: 'Replies', link: '/replies' },
-          { text: 'Tags', link: '/tags' },
-        ]
-      }
-    ],
+    sidebar: {
+      '/guide/': sidebarGuide(),
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/multivida' }
     ],
 
+    // on prod
+    search: {
+      provider: 'algolia',
+      options: {
+        appId: '8J64VVRP8K',
+        apiKey: 'a18e2f4cc5665f6602c5631fd868adfd',
+        indexName: 'vitepress'
+      }
+    },
 
     footer: {
       message: 'Released under the MIT License.',
@@ -47,14 +45,81 @@ export default defineConfig({
 
 function nav() {
   return [
-    { text: 'MultiVida API', link: '/' },
-    { text: 'Guide', link: '/guide' },
+    { text: 'Guide', link: '/guide/introduction/getting-started', activeMatch: '/guide/' },
     {
       text: 'Learn more',
       items: [
         { text: 'Multivida', link: 'https://multivida.blog' },
-        { text: 'Contribution', link: 'https://github.com/multivida' },
+        { text: 'Contributing', link: 'https://github.com/multivida' },
       ]
     }
+  ]
+}
+
+function sidebarGuide() {
+  return [
+    {
+      text: 'Introduction',
+      collapsed: false,
+      items: [
+        { text: 'Getting Started', link: '/guide/introduction/getting-started' },
+        { text: 'Query Filters', link: '/guide/introduction/query-filters' },
+        { text: 'Errors', link: '/guide/introduction/errors' },
+      ]
+    },
+    {
+      text: 'Models',
+      collapsed: false,
+      items: [
+        { text: 'Thread', link: '/guide/models/thread' },
+        { text: 'Comment', link: '/guide/models/comment' },
+        { text: 'Reply', link: '/guide/models/replie' },
+        { text: 'Tag', link: '/guide/models/tag' },
+      ]
+    },
+    {
+      text: 'Thread',
+      collapsed: false,
+      items: [
+        { text: 'Get', link: '/guide/threads/get' },
+        { text: 'Show', link: '/guide/threads/show' },
+        { text: 'Create', link: '/guide/threads/create' },
+        { text: 'Update', link: '/guide/threads/update' },
+        { text: 'Delete', link: '/guide/threads/delete' },
+      ]
+    },
+    {
+      text: 'Comment',
+      collapsed: false,
+      items: [
+        { text: 'Get', link: '/guide/comments/get' },
+        { text: 'Show', link: '/guide/comments/show' },
+        { text: 'Create', link: '/guide/comments/create' },
+        { text: 'Update', link: '/guide/comments/update' },
+        { text: 'Delete', link: '/guide/comments/delete' },
+      ]
+    },
+    {
+      text: 'Reply',
+      collapsed: false,
+      items: [
+        { text: 'Get', link: '/guide/replies/get' },
+        { text: 'Show', link: '/guide/replies/show' },
+        { text: 'Create', link: '/guide/replies/create' },
+        { text: 'Update', link: '/guide/replies/update' },
+        { text: 'Delete', link: '/guide/replies/delete' },
+      ]
+    },
+    {
+      text: 'Tag',
+      collapsed: false,
+      items: [
+        { text: 'Get', link: '/guide/tags/get' },
+        { text: 'Show', link: '/guide/tags/show' },
+        { text: 'Create', link: '/guide/tags/create' },
+        { text: 'Update', link: '/guide/tags/update' },
+        { text: 'Delete', link: '/guide/tags/delete' },
+      ]
+    },
   ]
 }

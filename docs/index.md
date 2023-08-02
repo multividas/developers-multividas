@@ -32,7 +32,7 @@ hero:
   text: "API documentation"
   tagline: MultiVida platform API enable developers to utilize Threads APIs
   image:
-    src: /public/logo.png
+    src: /logo.png
     alt: MultiVida API documentation Logo
   actions:
     - theme: brand
