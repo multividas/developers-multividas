@@ -69,17 +69,17 @@ function sidebarGuide() {
     },
     {
       text: 'Models',
-      collapsed: false,
+      collapsed: true,
       items: [
         { text: 'Thread', link: '/guide/models/thread' },
         { text: 'Comment', link: '/guide/models/comment' },
-        { text: 'Reply', link: '/guide/models/replie' },
+        { text: 'Reply', link: '/guide/models/reply' },
         { text: 'Tag', link: '/guide/models/tag' },
       ]
     },
     {
       text: 'Thread',
-      collapsed: false,
+      collapsed: true,
       items: [
         { text: 'Get', link: '/guide/threads/get' },
         { text: 'Show', link: '/guide/threads/show' },
@@ -90,7 +90,7 @@ function sidebarGuide() {
     },
     {
       text: 'Comment',
-      collapsed: false,
+      collapsed: true,
       items: [
         { text: 'Get', link: '/guide/comments/get' },
         { text: 'Show', link: '/guide/comments/show' },
@@ -101,7 +101,7 @@ function sidebarGuide() {
     },
     {
       text: 'Reply',
-      collapsed: false,
+      collapsed: true,
       items: [
         { text: 'Get', link: '/guide/replies/get' },
         { text: 'Show', link: '/guide/replies/show' },
@@ -112,7 +112,7 @@ function sidebarGuide() {
     },
     {
       text: 'Tag',
-      collapsed: false,
+      collapsed: true,
       items: [
         { text: 'Get', link: '/guide/tags/get' },
         { text: 'Show', link: '/guide/tags/show' },

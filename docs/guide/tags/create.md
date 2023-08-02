@@ -1,5 +1,5 @@
-# Create Thread
+# Create Tag
 
-Endpoint: `https://api.multivida.blog/threads` 
+Endpoint: `https://api.multivida.blog/tags` 
 
 Method: `POST`
