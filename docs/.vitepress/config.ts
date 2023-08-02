@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'en-US',
-  title: 'MultiVida',
-  description: 'MultiVida API documentation',
+  title: 'Multivida',
+  description: 'Multivida API documentation',
   lastUpdated: true,
   cleanUrls: true,
 
@@ -12,7 +12,7 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    siteTitle: 'MultiVida',
+    siteTitle: 'Multivida',
     logo: '/logo.svg',
 
     nav: nav(),

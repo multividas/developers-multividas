@@ -1,9 +1,9 @@
 ---
-title: MultiVida
+title: Multivida
 
-titleTemplate: MultiVida API documentation
+titleTemplate: Multivida API documentation
 
-description: Welcome to the MultiVida API documentation, where you can explore the various features and functionalities provided by our powerful API. Whether you're a developer or an enthusiast, our API offers seamless integration and access to a range of functionalities.
+description: Welcome to the Multivida API documentation, where you can explore the various features and functionalities provided by our powerful API. Whether you're a developer or an enthusiast, our API offers seamless integration and access to a range of functionalities.
 
 editLink: true
 
@@ -22,18 +22,20 @@ layout: home
 head:
   - - meta
     - name: description
-      content: Welcome to the MultiVida API documentation, where you can explore the various features and functionalities provided by our powerful API. Whether you're a developer or an enthusiast, our API offers seamless integration and access to a range of functionalities.
+      content: Welcome to the Multivida API documentation, where you can explore the various features and functionalities provided by our powerful API. Whether you're a developer or an enthusiast, our API offers seamless integration and access to a range of functionalities.
   - - meta
     - name: keywords
-      content: MultiVida API documentation
+      content: Multivida API documentation
 
 hero:
-  name: "MultiVida"
+  name: "Multivida"
   text: "API documentation"
-  tagline: MultiVida platform API enable developers to utilize Threads APIs
+  tagline: Multivida platform API enable developers to utilize Threads APIs
   image:
-    src: /logo.png
-    alt: MultiVida API documentation Logo
+    src: /logo-with-shadow.png
+    alt: Multivida API documentation Logo
+    light: /logo-with-shadow.png
+    dark: /logo-with-shadow.png
   actions:
     - theme: brand
       text: Get Started
