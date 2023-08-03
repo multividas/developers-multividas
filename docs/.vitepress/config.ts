@@ -25,13 +25,12 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/multivida' }
     ],
 
-    // on prod
     search: {
       provider: 'algolia',
       options: {
-        appId: '8J64VVRP8K',
-        apiKey: 'a18e2f4cc5665f6602c5631fd868adfd',
-        indexName: 'vitepress'
+        appId: 'ZYZS54V1U4',
+        apiKey: '263f0e1b8c89ffc86501f50776c56aee',
+        indexName: 'multivida'
       }
     },
 
@@ -41,7 +40,6 @@ export default defineConfig({
     }
   }
 })
-
 
 function nav() {
   return [
