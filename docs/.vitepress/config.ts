@@ -94,6 +94,13 @@ function sidebarRestApi() {
       ]
     },
     {
+      text: 'User',
+      collapsed: true,
+      items: [
+        { text: 'Get', link: '/rest-api/users/get' },
+      ]
+    },
+    {
       text: 'Thread',
       collapsed: true,
       items: [
