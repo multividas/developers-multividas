@@ -97,7 +97,7 @@ function sidebarRestApi() {
       text: 'Thread',
       collapsed: true,
       items: [
-        { text: 'Get', link: '/rest-api/threads/get' },
+        { text: 'Listing', link: '/rest-api/threads/listing' },
         { text: 'Show', link: '/rest-api/threads/show' },
         { text: 'Create', link: '/rest-api/threads/create' },
         { text: 'Update', link: '/rest-api/threads/update' },
@@ -108,7 +108,7 @@ function sidebarRestApi() {
       text: 'Comment',
       collapsed: true,
       items: [
-        { text: 'Get', link: '/rest-api/comments/get' },
+        { text: 'Listing', link: '/rest-api/comments/listing' },
         { text: 'Show', link: '/rest-api/comments/show' },
         { text: 'Create', link: '/rest-api/comments/create' },
         { text: 'Update', link: '/rest-api/comments/update' },
@@ -119,7 +119,7 @@ function sidebarRestApi() {
       text: 'Reply',
       collapsed: true,
       items: [
-        { text: 'Get', link: '/rest-api/replies/get' },
+        { text: 'Listing', link: '/rest-api/replies/listing' },
         { text: 'Show', link: '/rest-api/replies/show' },
         { text: 'Create', link: '/rest-api/replies/create' },
         { text: 'Update', link: '/rest-api/replies/update' },
