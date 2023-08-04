@@ -1,5 +1,5 @@
 # Update Thread
 
-Endpoint: `https://api.multivida.blog/{user:username}/threads/{thread:id}` 
+Endpoint: `https://api.multivida.blog/users/{user:username}/threads/{thread:id}` 
 
 Method: `PUT`

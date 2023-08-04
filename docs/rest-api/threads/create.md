@@ -1,5 +1,5 @@
 # Create Thread
 
-Endpoint: `https://api.multivida.blog/{user:username}/threads` 
+Endpoint: `https://api.multivida.blog/users/{user:username}/threads` 
 
 Method: `POST`

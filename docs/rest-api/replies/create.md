@@ -1,5 +1,5 @@
 # Create Reply
 
-Endpoint: `https://api.multivida.blog/{user:username}/s/{thread:id}/comments/{comment:id}/replies` 
+Endpoint: `https://api.multivida.blog/users/{user:username}/threads/{thread:id}/comments/{comment:id}/replies` 
 
 Method: `POST`
