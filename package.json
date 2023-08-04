@@ -21,6 +21,7 @@
   "license": "MIT",
   "dependencies": {
     "vitepress": "^v1.0.0-beta.7",
+    "vitepress-plugin-pagefind": "^0.2.5",
     "vue": "^3.2.45"
   }
 }

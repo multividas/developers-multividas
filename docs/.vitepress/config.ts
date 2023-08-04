@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { pagefindPlugin } from 'vitepress-plugin-pagefind'
 
 export default defineConfig({
   lang: 'en-US',
@@ -11,6 +12,17 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#0f4c81' }],
   ],
 
+  vite: {
+    plugins: [pagefindPlugin({
+      forceLanguage:'en-US',
+      btnPlaceholder: 'Search Docs',
+      placeholder: 'Search Docs',
+      emptyText: 'No recent searches',
+      heading: 'Documentation',
+      excludeSelector:['img','a.header-anchor']
+    })],
+  },
+
   themeConfig: {
     siteTitle: 'Multivida',
     logo: '/logo.svg',
@@ -18,32 +30,25 @@ export default defineConfig({
     nav: nav(),
 
     sidebar: {
-      '/guide/': sidebarGuide(),
+      '/rest-api/': sidebarRestApi(),
+      '/graphql/': sidebarGraphQL(),
     },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/multivida' }
     ],
 
-    search: {
-      provider: 'algolia',
-      options: {
-        appId: 'ZYZS54V1U4',
-        apiKey: '263f0e1b8c89ffc86501f50776c56aee',
-        indexName: 'multivida'
-      }
-    },
-
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2023-present Soulaiamne Yahya'
+      copyright: 'Copyright © 2023-present Soulaimane Yahya'
     }
   }
 })
 
 function nav() {
   return [
-    { text: 'Guide', link: '/guide/introduction/getting-started', activeMatch: '/guide/' },
+    { text: 'Rest API', link: '/rest-api/introduction/getting-started', activeMatch: '/rest-api/' },
+    { text: 'GraphQL', link: '/graphql/introduction/getting-started', activeMatch: '/graphql/' },
     {
       text: 'Learn more',
       items: [
@@ -54,69 +59,78 @@ function nav() {
   ]
 }
 
-function sidebarGuide() {
+function sidebarGraphQL() {
   return [
     {
       text: 'Introduction',
       collapsed: false,
       items: [
-        { text: 'Getting Started', link: '/guide/introduction/getting-started' },
-        { text: 'Query Filters', link: '/guide/introduction/query-filters' },
-        { text: 'Errors', link: '/guide/introduction/errors' },
+        { text: 'Getting Started', link: '/graphql/introduction/getting-started' },
+      ]
+    },
+  ]
+}
+
+function sidebarRestApi() {
+  return [
+    {
+      text: 'Introduction',
+      collapsed: false,
+      items: [
+        { text: 'Getting Started', link: '/rest-api/introduction/getting-started' },
+        { text: 'Query Filters', link: '/rest-api/introduction/query-filters' },
+        { text: 'Errors', link: '/rest-api/introduction/errors' },
       ]
     },
     {
-      text: 'Models',
+      text: 'Entities',
       collapsed: true,
       items: [
-        { text: 'Thread', link: '/guide/models/thread' },
-        { text: 'Comment', link: '/guide/models/comment' },
-        { text: 'Reply', link: '/guide/models/reply' },
-        { text: 'Tag', link: '/guide/models/tag' },
+        { text: 'User', link: '/rest-api/entities/user' },
+        { text: 'Thread', link: '/rest-api/entities/thread' },
+        { text: 'Comment', link: '/rest-api/entities/comment' },
+        { text: 'Reply', link: '/rest-api/entities/reply' },
+        { text: 'Tag', link: '/rest-api/entities/tag' },
       ]
     },
     {
       text: 'Thread',
       collapsed: true,
       items: [
-        { text: 'Get', link: '/guide/threads/get' },
-        { text: 'Show', link: '/guide/threads/show' },
-        { text: 'Create', link: '/guide/threads/create' },
-        { text: 'Update', link: '/guide/threads/update' },
-        { text: 'Delete', link: '/guide/threads/delete' },
+        { text: 'Get', link: '/rest-api/threads/get' },
+        { text: 'Show', link: '/rest-api/threads/show' },
+        { text: 'Create', link: '/rest-api/threads/create' },
+        { text: 'Update', link: '/rest-api/threads/update' },
+        { text: 'Delete', link: '/rest-api/threads/delete' },
       ]
     },
     {
       text: 'Comment',
       collapsed: true,
       items: [
-        { text: 'Get', link: '/guide/comments/get' },
-        { text: 'Show', link: '/guide/comments/show' },
-        { text: 'Create', link: '/guide/comments/create' },
-        { text: 'Update', link: '/guide/comments/update' },
-        { text: 'Delete', link: '/guide/comments/delete' },
+        { text: 'Get', link: '/rest-api/comments/get' },
+        { text: 'Show', link: '/rest-api/comments/show' },
+        { text: 'Create', link: '/rest-api/comments/create' },
+        { text: 'Update', link: '/rest-api/comments/update' },
+        { text: 'Delete', link: '/rest-api/comments/delete' },
       ]
     },
     {
       text: 'Reply',
       collapsed: true,
       items: [
-        { text: 'Get', link: '/guide/replies/get' },
-        { text: 'Show', link: '/guide/replies/show' },
-        { text: 'Create', link: '/guide/replies/create' },
-        { text: 'Update', link: '/guide/replies/update' },
-        { text: 'Delete', link: '/guide/replies/delete' },
+        { text: 'Get', link: '/rest-api/replies/get' },
+        { text: 'Show', link: '/rest-api/replies/show' },
+        { text: 'Create', link: '/rest-api/replies/create' },
+        { text: 'Update', link: '/rest-api/replies/update' },
+        { text: 'Delete', link: '/rest-api/replies/delete' },
       ]
     },
     {
       text: 'Tag',
       collapsed: true,
       items: [
-        { text: 'Get', link: '/guide/tags/get' },
-        { text: 'Show', link: '/guide/tags/show' },
-        { text: 'Create', link: '/guide/tags/create' },
-        { text: 'Update', link: '/guide/tags/update' },
-        { text: 'Delete', link: '/guide/tags/delete' },
+        { text: 'Listing', link: '/rest-api/tags/listing' },
       ]
     },
   ]

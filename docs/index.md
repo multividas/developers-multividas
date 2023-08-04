@@ -26,6 +26,10 @@ head:
   - - meta
     - name: keywords
       content: Multivida API documentation
+  - - link
+    - rel: icon
+      type: image/svg+xml
+      href: /logo.svg
 
 hero:
   name: "Multivida"
@@ -38,8 +42,11 @@ hero:
     dark: /logo-with-shadow.png
   actions:
     - theme: brand
-      text: Get Started
-      link: /guide/introduction/getting-started
+      text: Rest API
+      link: /rest-api/introduction/getting-started
+    - theme: brand
+      text: GraphQL
+      link: /graphql/introduction/getting-started
     - theme: alt
       text: View on Github
       link: https://github.com/multivida/multivida-api-docs
@@ -48,13 +55,13 @@ features:
   - icon: 🔑
     title: Typed entities
     details: Flexible DX thanks to a reference for the returned entities.
-    link: /guide/introduction/getting-started
+    link: /rest-api/introduction/getting-started
   - icon: 💡
     title: Full coverage
     details: Thanks to our rich API, our docs provide full overview of what's possible in our platform.
-    link: /guide/introduction/getting-started
+    link: /rest-api/introduction/getting-started
   - icon: ⚡️
     title: Beginner friendly
-    details: Rich how-to guide to ensure smooth sailing for everyone
-    link: /guide/introduction/getting-started
+    details: Rich how-to rest-api to ensure smooth sailing for everyone
+    link: /rest-api/introduction/getting-started
 ---
