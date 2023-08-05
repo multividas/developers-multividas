@@ -17,7 +17,7 @@ Every error includes a code, the HTTP status code, a short detail, and an additi
 ## Not found
 ```json
 {
-    "info": "Item Not Found",
+    "info": "Resource Not Found",
     "code": 404
 }
 ```
