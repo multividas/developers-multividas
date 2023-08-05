@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "dev:docs": "npx vitepress dev docs",
+    "build:docs": "npx vitepress build docs",
+    "serve:docs": "npx vitepress serve docs"
   },
   "keywords": [
     "Multivida",
