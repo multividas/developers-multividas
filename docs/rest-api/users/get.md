@@ -76,8 +76,8 @@ Method: `GET`
         "role": "admin",
         "isVerified": "verified",
         "isProfileLocked": false,
-        "lockedComments": false,
-        "lockedLikes": false,
+        "isCommentLocked": false,
+        "isLikeLocked": false,
         "userAvatar": "https://multivida.blog/storage/factory/users/soulaimaneyh/1.jpg",
         "userCover": "https://multivida.blog/storage/factory/covers/1.jpg",
         "createdAt": "2023-04-23T16:47:09.000000Z"

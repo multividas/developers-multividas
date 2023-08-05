@@ -25,7 +25,7 @@ Every error includes a code, the HTTP status code, a short detail, and an additi
 ## Internal error
 ```json
 {
-    "info": "Internal Server Error"
-    "code": 500,
+    "info": "Internal Server Error",
+    "code": 500
 }
 ```

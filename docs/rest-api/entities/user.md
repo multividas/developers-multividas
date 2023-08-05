@@ -9,9 +9,13 @@ This document describes the attributes of the User and Profile Models used in th
 | id                  | string         | Unique identifier (UUID)              |
 | name                | string         | Name of the user                      |
 | username            | string         | Username of the user                  |
+| email               | string, null   | Email of the user                     |
+| phone               | string, null   | Phone of the user                     |
 | role                | string         | User role                             |
 | isVerified          | string         | User's profile verified status        |
 | isProfileLocked     | boolean        | User's profile locked status          |
+| isCommentLocked     | boolean        | User's comments locked status         |
+| isLikeLocked        | boolean        | User's likes locked status            |
 | [profile](#profile) | object         | User Profile object                   |
 | userAvatar          | string, null   | URL path for user's avatar            |
 | userCover           | string, null   | URL path for user's cover image       |
