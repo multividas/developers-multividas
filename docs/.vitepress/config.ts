@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import { pagefindPlugin } from 'vitepress-plugin-pagefind'
 
 export default defineConfig({
   lang: 'en-US',
@@ -12,20 +11,9 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#0f4c81' }],
   ],
 
-  vite: {
-    plugins: [pagefindPlugin({
-      forceLanguage:'en-US',
-      btnPlaceholder: 'Search Docs',
-      placeholder: 'Search Docs',
-      emptyText: 'No recent searches',
-      heading: 'Documentation',
-      excludeSelector:['img','a.header-anchor']
-    })],
-  },
-
   themeConfig: {
     siteTitle: 'Multivida',
-    logo: '/logo.svg',
+    logo: '/images/logo.svg',
 
     nav: nav(),
 
@@ -78,8 +66,27 @@ function sidebarRestApi() {
       collapsed: false,
       items: [
         { text: 'Getting Started', link: '/rest-api/introduction/getting-started' },
+        { text: 'API Response Handling', link: '/rest-api/introduction/api-responser' },
+        { text: 'Query Search', link: '/rest-api/introduction/query-search' },
         { text: 'Query Filters', link: '/rest-api/introduction/query-filters' },
-        { text: 'Errors', link: '/rest-api/introduction/errors' },
+        { text: 'Error Handling', link: '/rest-api/introduction/errors' },
+      ]
+    },
+    {
+      text: 'Authentication',
+      collapsed: true,
+      items: [
+        { text: 'OAuth Apps', link: '/rest-api/authentication/oauth-apps' },
+        { text: 'OAuth Apps Scopes', link: '/rest-api/authentication/oauth-apps-scopes' },
+        { text: 'Personnel Access Tokens', link: '/rest-api/authentication/personal-access-tokens' },
+        { text: 'Personnel Access Tokens Scopes', link: '/rest-api/authentication/personal-access-tokens-scopes' },
+      ]
+    },
+    {
+      text: 'REST Hooks',
+      collapsed: true,
+      items: [
+        { text: 'Overview', link: '/rest-api/resthooks/overview' },
       ]
     },
     {
@@ -97,7 +104,9 @@ function sidebarRestApi() {
       text: 'User',
       collapsed: true,
       items: [
-        { text: 'Get', link: '/rest-api/users/get' },
+        { text: 'Getting Started', link: '/rest-api/users/getting-started' },
+        { text: 'Get the authenticated user', link: '/rest-api/users/get-the-authenticated-user' },
+        { text: 'Get user', link: '/rest-api/users/get-user' },
       ]
     },
     {
@@ -138,6 +147,13 @@ function sidebarRestApi() {
       collapsed: true,
       items: [
         { text: 'Listing', link: '/rest-api/tags/listing' },
+      ]
+    },
+    {
+      text: 'Settings',
+      collapsed: true,
+      items: [
+
       ]
     },
   ]

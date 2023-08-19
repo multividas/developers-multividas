@@ -29,17 +29,17 @@ head:
   - - link
     - rel: icon
       type: image/svg+xml
-      href: /logo.svg
+      href: /images/logo.svg
 
 hero:
   name: "Multivida"
   text: "API documentation"
   tagline: Multivida platform API enable developers to utilize Threads APIs
   image:
-    src: /logo-with-shadow.png
+    src: /images/logo-with-shadow.png
     alt: Multivida API documentation Logo
-    light: /logo-with-shadow.png
-    dark: /logo-with-shadow.png
+    light: /images/logo-with-shadow.png
+    dark: /images/logo-with-shadow.png
   actions:
     - theme: brand
       text: Rest API
@@ -54,14 +54,14 @@ hero:
 features:
   - icon: 🔑
     title: Typed entities
-    details: Flexible DX thanks to a reference for the returned entities.
+    details: Our platform offers a flexible DX (Developer Experience), made possible by providing references for the returned entities.
     link: /rest-api/introduction/getting-started
   - icon: 💡
     title: Full coverage
-    details: Thanks to our rich API, our docs provide full overview of what's possible in our platform.
+    details: With our rich API, our documentation offers a comprehensive overview of all the possibilities our platform has to offer.
     link: /rest-api/introduction/getting-started
   - icon: ⚡️
     title: Beginner friendly
-    details: Rich how-to rest-api to ensure smooth sailing for everyone
+    details: The rest API includes detailed how-to guides, ensuring a seamless experience for everyone.
     link: /rest-api/introduction/getting-started
 ---

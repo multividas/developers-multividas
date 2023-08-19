@@ -1,10 +1,10 @@
 # Getting started - Rest API
 
-Multivida API is based on REST and use standard HTTP response codes, authentication, and verbs. It allows you to interact with your threads, from creating threads or posts from a third party service.
+Multivida API is based on REST and use standard HTTP response codes, authentication, and verbs. It allows you to interact with your threads, from creating threads or posts from a third party service. <Badge type="info" text="V1" />
 
 ## API Base URL
 
-https://api.multivida.blog
+https://api.multivida.blog/rest-api/v1/
 
 
 ## Postman collection

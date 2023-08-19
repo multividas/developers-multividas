@@ -1,15 +1,18 @@
 # Query Filters
 
-Query filters are the parameters used to navigate the API resources, paginate, filter, sort, etc.
-Use [API-Responser](https://github.com/multivida/api-responser) composer package to simplify the process of building APIs and filtering queries.
+Use [Query-Filters](https://github.com/multivida/query-filters) composer package to simplify the process of filtering and sorting queries.
 
 
-## Search
+## Limiting Results
 
-The q parameter can be used to search for something under a listing in a resource. Ex:
+To limit the number of rows in your response and expedite your requests, utilize the `per_page` parameter:
+
+By default, the API returns 10 items.
+
+Example: To retrieve 15 items per page from a user's threads, use the following endpoint:
 
 ```
-/users/{username}/threads?q=lorem ipsum
+/users/{username}/threads?page=1&per_page=15
 ```
 
 
@@ -29,47 +32,22 @@ In the Link header, you will find first, `prev`, `next`, and `last` links. These
 
 ```json
 {
-    "current_page": 1,
     "data": [
         // ...
     ],
-    "first_page_url": "https://api.multivida.blog/users/{username}/threads?page=1",
-    "from": 1,
-    "last_page": 2,
-    "last_page_url": "https://api.multivida.blog/users/{username}/threads?page=2",
-    "links": [
-        {
-            "url": null,
-            "label": "&laquo; Previous",
-            "active": false
-        },
-        {
-            "url": "https://api.multivida.blog/users/{username}/threads?page=1",
-            "label": "1",
-            "active": true
-        },
-        // ..
-    ],
-    "next_page_url": "https://api.multivida.blog/users/{username}/threads?page=2",
-    "path": "https://api.multivida.blog/users/{username}/threads",
-    "per_page": 10,
-    "prev_page_url": null,
-    "to": 10,
-    "total": 13
+    "meta": {
+        "pagination": {
+            "total": 12,
+            "count": 10,
+            "per_page": 10,
+            "current_page": 1,
+            "total_pages": 2,
+            "links": {
+                "next": "https://api.multivida.blog/rest-api/v1/users/mark/threads?page=2"
+            }
+        }
+    }
 }
-```
-
-
-## Limiting Results
-
-To limit the number of rows in your response and expedite your requests, utilize the `per_page` parameter:
-
-By default, the API returns 10 items.
-
-Example: To retrieve 15 items per page from a user's threads, use the following endpoint:
-
-```
-/users/{username}/threads?page=1&per_page=15
 ```
 
 
@@ -81,13 +59,7 @@ To get the best results, you can sort it using the available fields for the sele
 /users/{username}/threads?_sort=id&_order=asc
 ```
 
-Add `_sort` and `_order` (ascending order by default)
-
-```
-/users/{username}/threads?_sort=created_at&_order=asc
-```
-
-By default, you get latest created data:
+Add `_sort` and `_order` params, By default, you'll get latest created data in ascending order:
 
 ```
 /users/{username}/threads?_sort=created_at&_order=desc
