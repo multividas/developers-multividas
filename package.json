@@ -2,14 +2,14 @@
   "name": "developers",
   "version": "1.0.0",
   "type": "module",
-  "description": "MultiVida platform API enable developers to utilize Threads APIs",
+  "description": "Multividas platform API enable developers to utilize Threads APIs",
   "scripts": {
     "dev:docs": "npx vitepress dev docs",
     "build:docs": "npx vitepress build docs",
     "serve:docs": "npx vitepress serve docs"
   },
   "keywords": [
-    "Multivida",
+    "Multividas",
     "API documentation"
   ],
   "author": {

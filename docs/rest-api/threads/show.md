@@ -5,7 +5,7 @@ Use the provided endpoint with the `GET` method to list user's threads.
 
 ### Resource URL
 
-`https://api.multivida.blog/rest-api/v1/threads/{thread:id}`
+`https://api.multividas.com/rest-api/v1/threads/{thread:id}`
 
 ### Resource Information
 
@@ -27,7 +27,7 @@ Use the provided endpoint with the `GET` method to list user's threads.
         "isPublic": 1,
         "isCommentEnabled": 1,
         "files": [{
-            "src": "https://multivida.blog/storage/factory/thumbnails/1.jpg",
+            "src": "https://multividas.com/storage/factory/thumbnails/1.jpg",
             "mimetype": "image/jpg"
         }],
         "tags": [
@@ -44,8 +44,8 @@ Use the provided endpoint with the `GET` method to list user's threads.
             "isProfileLocked": true,
             "isCommentLocked": true,
             "isLikeLocked": true,
-            "userAvatar": "https://multivida.blog/storage/factory/users/mark/1.jpg",
-            "userCover": "https://multivida.blog/storage/factory/covers/1.jpg",
+            "userAvatar": "https://multividas.com/storage/factory/users/mark/1.jpg",
+            "userCover": "https://multividas.com/storage/factory/covers/1.jpg",
             "createdAt": "2023-01-09T23:45:09.000000Z"
         },
         "createdAt": "2023-07-31T21:43:51.000000Z",

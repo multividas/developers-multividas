@@ -1,5 +1,5 @@
 # Show Comment
 
-Endpoint: `https://api.multivida.blog/rest-api/v1/comments/{comment:id}`
+Endpoint: `https://api.multividas.com/rest-api/v1/comments/{comment:id}`
 
 Method: `GET`

@@ -1,6 +1,6 @@
-# Thread Model at MultiVida.blog
+# Thread Model at multividas.com
 
-This document describes the attributes of the Thread model used in the MultiVida.blog application.
+This document describes the attributes of the Thread model used in the multividas.com application.
 
 ## Thread Attributes
 

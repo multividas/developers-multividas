@@ -1,6 +1,6 @@
 # Query Search
 
-Use [Query-Search](https://github.com/multivida/query-search) composer package for simplifying the execution of search queries.
+Use [Query-Search](https://github.com/multividas/query-search) composer package for simplifying the execution of search queries.
 
 ## Search
 

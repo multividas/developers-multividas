@@ -1,6 +1,6 @@
-# User Model at Multivida.blog
+# User Model at multividas.com
 
-This document describes the attributes of the User and Profile Models used in the Multivida.blog application.
+This document describes the attributes of the User and Profile Models used in the multividas.com application.
 
 ## User Attributes
 

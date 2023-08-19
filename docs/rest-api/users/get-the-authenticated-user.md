@@ -4,7 +4,7 @@ If the authenticated user is authenticated with a **`personal access token`** wi
 
 ## Greeting
 
-Endpoint: `https://api.multivida.blog/rest-api/v1/user/greeting` 
+Endpoint: `https://api.multividas.com/rest-api/v1/user/greeting` 
 
 Method: `GET`
 
@@ -22,7 +22,7 @@ Method: `GET`
 
 ### Resource URL
 
-`https://api.multivida.blog/rest-api/v1/user`
+`https://api.multividas.com/rest-api/v1/user`
 
 ### Resource Information
 
@@ -48,18 +48,18 @@ Method: `GET`
         "isProfileLocked": false,
         "isCommentLocked": false,
         "isLikeLocked": false,
-        "userAvatar": "https://multivida.blog/storage/factory/users/soulaimaneyh/1.jpg",
-        "userCover": "https://multivida.blog/storage/factory/covers/1.jpg",
+        "userAvatar": "https://multividas.com/storage/factory/users/soulaimaneyh/1.jpg",
+        "userCover": "https://multividas.com/storage/factory/covers/1.jpg",
         "createdAt": "2023-04-23T16:47:09.000000Z",
         "updatedAt": "2023-04-23T16:47:09.000000Z",
         "links": [
             {
                 "rel": "self",
-                "href": "https://api.multivida.blog/rest-api/v1/user"
+                "href": "https://api.multividas.com/rest-api/v1/user"
             },
             {
                 "rel": "user.profile",
-                "href": "https://api.multivida.blog/rest-api/v1/user/profile"
+                "href": "https://api.multividas.com/rest-api/v1/user/profile"
             }
         ]
     }
@@ -72,7 +72,7 @@ Method: `GET`
 
 ### Resource URL
 
-`https://api.multivida.blog/rest-api/v1/user/profile`
+`https://api.multividas.com/rest-api/v1/user/profile`
 
 ### Response [200]
 
@@ -80,7 +80,7 @@ Method: `GET`
 {
     "data": {
         "id": "99cf995b-a030-4ba4-b233-466111517715",
-        "bio": "Founder and CEO at Multivida",
+        "bio": "Founder and CEO at Multividas",
         "url": "https://soulaimaneyahya.com",
         "location": "Tétouan",
         "gender": "male",

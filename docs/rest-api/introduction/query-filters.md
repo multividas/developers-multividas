@@ -1,6 +1,6 @@
 # Query Filters
 
-Use [Query-Filters](https://github.com/multivida/query-filters) composer package to simplify the process of filtering and sorting queries.
+Use [Query-Filters](https://github.com/multividas/query-filters) composer package to simplify the process of filtering and sorting queries.
 
 
 ## Limiting Results
@@ -43,7 +43,7 @@ In the Link header, you will find first, `prev`, `next`, and `last` links. These
             "current_page": 1,
             "total_pages": 2,
             "links": {
-                "next": "https://api.multivida.blog/rest-api/v1/users/mark/threads?page=2"
+                "next": "https://api.multividas.com/rest-api/v1/users/mark/threads?page=2"
             }
         }
     }

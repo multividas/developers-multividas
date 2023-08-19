@@ -5,7 +5,7 @@ Use the provided endpoint with the `GET` method to list user's threads.
 
 ### Resource URL
 
-`https://api.multivida.blog/rest-api/v1/users/{user:username}/threads?page=1&per_page=10`
+`https://api.multividas.com/rest-api/v1/users/{user:username}/threads?page=1&per_page=10`
 
 ### Resource Information
 
@@ -39,7 +39,7 @@ Use the provided endpoint with the `GET` method to list user's threads.
             "isPublic": 1,
             "isCommentEnabled": 1,
             "files": [{
-                "src": "https://multivida.blog/storage/factory/thumbnails/1.jpg",
+                "src": "https://multividas.com/storage/factory/thumbnails/1.jpg",
                 "mimetype": "image/jpg"
             }],
             "tags": [
@@ -56,8 +56,8 @@ Use the provided endpoint with the `GET` method to list user's threads.
                 "isProfileLocked": true,
                 "isCommentLocked": true,
                 "isLikeLocked": true,
-                "userAvatar": "https://multivida.blog/storage/factory/users/mark/1.jpg",
-                "userCover": "https://multivida.blog/storage/factory/covers/1.jpg",
+                "userAvatar": "https://multividas.com/storage/factory/users/mark/1.jpg",
+                "userCover": "https://multividas.com/storage/factory/covers/1.jpg",
                 "createdAt": "2023-01-09T23:45:09.000000Z"
             },
             "createdAt": "2023-07-31T21:43:51.000000Z",
@@ -66,10 +66,10 @@ Use the provided endpoint with the `GET` method to list user's threads.
         },
         // ...
     ],
-    "first_page_url": "https://api.multivida.blog/rest-api/v1/users/mark/threads?page=1",
+    "first_page_url": "https://api.multividas.com/rest-api/v1/users/mark/threads?page=1",
     "from": 1,
     "last_page": 1,
-    "last_page_url": "https://api.multivida.blog/rest-api/v1/users/mark/threads?page=1",
+    "last_page_url": "https://api.multividas.com/rest-api/v1/users/mark/threads?page=1",
     "links": [
         {
             "url": null,
@@ -77,7 +77,7 @@ Use the provided endpoint with the `GET` method to list user's threads.
             "active": false
         },
         {
-            "url": "https://api.multivida.blog/rest-api/v1/users/mark/threads?page=1",
+            "url": "https://api.multividas.com/rest-api/v1/users/mark/threads?page=1",
             "label": "1",
             "active": true
         },
@@ -88,7 +88,7 @@ Use the provided endpoint with the `GET` method to list user's threads.
         }
     ],
     "next_page_url": null,
-    "path": "https://api.multivida.blog/rest-api/v1/users/mark/threads",
+    "path": "https://api.multividas.com/rest-api/v1/users/mark/threads",
     "per_page": 10,
     "prev_page_url": null,
     "to": 9,

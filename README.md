@@ -1,12 +1,12 @@
-# Multivida API documentation
+# Multividas API documentation
 
-Multivida platform API enable developers to utilize Threads APIs
+Multividas platform API enable developers to utilize Threads APIs
 
-<img src="./docs/public/images/cover.png" alt="multivida-blog" />
+<img src="./docs/public/images/cover.png" alt="multividas-blog" />
 
 ----- 
 Need helps? Reach me out
 
-> Email: contact@multivida.blog
+> Email: contact@multividas.com
 
 All the best :beer:

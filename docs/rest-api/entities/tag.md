@@ -1,6 +1,6 @@
-# Tag model at MultiVida.blog
+# Tag model at multividas.com
 
-This document describes the attributes of the Tag model used in the MultiVida.blog application.
+This document describes the attributes of the Tag model used in the multividas.com application.
 
 | Attribute Name   | Type           | Description                |
 |------------------|----------------|----------------------------|

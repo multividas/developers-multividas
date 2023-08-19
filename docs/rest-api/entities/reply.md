@@ -1,6 +1,6 @@
-# Reply Model at MultiVida.blog
+# Reply Model at multividas.com
 
-This document describes the attributes of the Reply model used in the MultiVida.blog application.
+This document describes the attributes of the Reply model used in the multividas.com application.
 
 | Attribute Name  | Type        | Description                                 |
 |-----------------|-------------|---------------------------------------------|

@@ -1,9 +1,9 @@
 ---
-title: Multivida
+title: Multividas
 
-titleTemplate: Multivida API documentation
+titleTemplate: Multividas API documentation
 
-description: Welcome to the Multivida API documentation, where you can explore the various features and functionalities provided by our powerful API. Whether you're a developer or an enthusiast, our API offers seamless integration and access to a range of functionalities.
+description: Welcome to the Multividas API documentation, where you can explore the various features and functionalities provided by our powerful API. Whether you're a developer or an enthusiast, our API offers seamless integration and access to a range of functionalities.
 
 editLink: true
 
@@ -22,22 +22,22 @@ layout: home
 head:
   - - meta
     - name: description
-      content: Welcome to the Multivida API documentation, where you can explore the various features and functionalities provided by our powerful API. Whether you're a developer or an enthusiast, our API offers seamless integration and access to a range of functionalities.
+      content: Welcome to the Multividas API documentation, where you can explore the various features and functionalities provided by our powerful API. Whether you're a developer or an enthusiast, our API offers seamless integration and access to a range of functionalities.
   - - meta
     - name: keywords
-      content: Multivida API documentation
+      content: Multividas API documentation
   - - link
     - rel: icon
       type: image/svg+xml
       href: /images/logo.svg
 
 hero:
-  name: "Multivida"
+  name: "Multividas"
   text: "API documentation"
-  tagline: Multivida platform API enable developers to utilize Threads APIs
+  tagline: Multividas platform API enable developers to utilize Threads APIs
   image:
     src: /images/logo-with-shadow.png
-    alt: Multivida API documentation Logo
+    alt: Multividas API documentation Logo
     light: /images/logo-with-shadow.png
     dark: /images/logo-with-shadow.png
   actions:
@@ -49,7 +49,7 @@ hero:
       link: /graphql/introduction/getting-started
     - theme: alt
       text: View on Github
-      link: https://github.com/multivida/multivida-api-docs
+      link: https://github.com/multividas/multividas-api-docs
 
 features:
   - icon: 🔑

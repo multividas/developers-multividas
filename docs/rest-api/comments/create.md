@@ -1,5 +1,5 @@
 # Create Comment
 
-Endpoint: `https://api.multivida.blog/rest-api/v1/users/{user:username}/threads/{thread:id}/comments` 
+Endpoint: `https://api.multividas.com/rest-api/v1/users/{user:username}/threads/{thread:id}/comments` 
 
 Method: `POST`

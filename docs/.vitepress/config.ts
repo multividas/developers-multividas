@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'en-US',
-  title: 'Multivida',
-  description: 'Multivida API documentation',
+  title: 'Multividas',
+  description: 'Multividas API documentation',
   lastUpdated: true,
   cleanUrls: true,
 
@@ -12,7 +12,7 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    siteTitle: 'Multivida',
+    siteTitle: 'Multividas',
     logo: '/images/logo.svg',
 
     nav: nav(),
@@ -23,7 +23,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/multivida' }
+      { icon: 'github', link: 'https://github.com/multividas' }
     ],
 
     footer: {
@@ -40,8 +40,8 @@ function nav() {
     {
       text: 'Learn more',
       items: [
-        { text: 'Multivida', link: 'https://multivida.blog' },
-        { text: 'Contributing', link: 'https://github.com/multivida' },
+        { text: 'Multividas', link: 'https://multividas.com' },
+        { text: 'Contributing', link: 'https://github.com/multividas' },
       ]
     }
   ]

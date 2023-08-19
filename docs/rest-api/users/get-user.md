@@ -5,7 +5,7 @@ Use the provided endpoint with the `GET` method to access user details.
 
 ### Resource URL
 
-`https://api.multivida.blog/rest-api/v1/users/{user:username}` 
+`https://api.multividas.com/rest-api/v1/users/{user:username}` 
 
 ### Resource Information
 
@@ -28,17 +28,17 @@ Use the provided endpoint with the `GET` method to access user details.
         "isProfileLocked": true,
         "isCommentLocked": true,
         "isLikeLocked": true,
-        "userAvatar": "https://multivida.blog/storage/factory/users/mark/1.jpg",
-        "userCover": "https://multivida.blog/storage/factory/covers/1.jpg",
+        "userAvatar": "https://multividas.com/storage/factory/users/mark/1.jpg",
+        "userCover": "https://multividas.com/storage/factory/covers/1.jpg",
         "createdAt": "2023-04-23T16:47:09.000000Z",
         "links": [
             {
                 "rel": "self",
-                "href": "https://api.multivida.blog/rest-api/v1/users/mark"
+                "href": "https://api.multividas.com/rest-api/v1/users/mark"
             },
             {
                 "rel": "users.show.profile",
-                "href": "https://api.multivida.blog/rest-api/v1/users/mark/profile"
+                "href": "https://api.multividas.com/rest-api/v1/users/mark/profile"
             }
         ]
     }
@@ -51,7 +51,7 @@ Use the provided endpoint with the `GET` method to access user details.
 
 ### Resource URL
 
-`https://api.multivida.blog/rest-api/v1/users/{user:username}/profile` 
+`https://api.multividas.com/rest-api/v1/users/{user:username}/profile` 
 
 ### Response [200]
 
