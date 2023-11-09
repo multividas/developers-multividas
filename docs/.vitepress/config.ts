@@ -6,7 +6,6 @@ export default defineConfig({
   description: 'Multividas API documentation',
   lastUpdated: true,
   cleanUrls: true,
-  base: '/multividas-api-doc/',
 
   head: [
     ['meta', { name: 'theme-color', content: '#0f4c81' }],
