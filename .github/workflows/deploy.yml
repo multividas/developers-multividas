@@ -1,8 +1,8 @@
-name: Deploy Api Documentation site to Pages
+name: Deploy static content to Pages
 
 on:
   push:
-    branches: [main]
+    branches: ["main"]
 
   workflow_dispatch:
 
@@ -12,30 +12,27 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: "pages"
   cancel-in-progress: false
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-      - name: Setup Node
+      - name: Install Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18
-          cache: npm
+          node-version: '18'
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Install dependencies
-        run: npm ci
+        run: npm install
       - name: Build Api Documentation
         run: |
-          npm run docs:build
+          npm run build:docs
           touch docs/.vitepress/dist/.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2

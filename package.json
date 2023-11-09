@@ -23,5 +23,8 @@
   },
   "devDependencies": {
     "vitepress": "^1.0.0-rc.4"
+  },
+  "vitepress": {
+    "base": "/multividas-api-doc/"
   }
 }
