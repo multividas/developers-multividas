@@ -17,4 +17,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Build docs
-        run: ./buil-docs.sh
+        run: ./build-docs.sh
