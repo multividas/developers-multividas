@@ -1,0 +1,6 @@
+/docs/.vitepress/dist
+/docs/.vitepress/cache
+/node_modules
+.nginx
+/guide
+.htaccess
