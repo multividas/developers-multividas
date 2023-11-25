@@ -1,6 +1,0 @@
-[build.environment]
-  NODE_VERSION = "18"
-
-[build]
-  publish = "dist"
-  command = "npm run build:docs && touch dist/.nojekyll && touch dist/favicon.ico"
