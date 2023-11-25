@@ -2,6 +2,5 @@
   NODE_VERSION = "18"
 
 [build]
-  publish = "docs/.vitepress/dist"
-  command = "npm run build:docs"
-  
+  publish = "dist"
+  command = "npm run build:docs && touch dist/.nojekyll && touch dist/favicon.ico"

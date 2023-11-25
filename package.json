@@ -1,23 +1,22 @@
 {
-  "name": "developers",
+  "name": "multividas.github.io",
+  "private": true,
   "version": "1.0.0",
   "type": "module",
   "description": "Multividas platform API enable developers to utilize Threads APIs",
+  "keywords": [
+    "multividas",
+    "multividas blogs",
+    "multividas threads",
+    "multividas api documentation"
+  ],
+  "author": "soulaimane yahya <contact@soulaimaneyahya.com> (https://soulaimaneyahya.com/)",
+  "license": "MIT",
   "scripts": {
     "dev:docs": "npx vitepress dev docs",
     "build:docs": "npx vitepress build docs",
     "serve:docs": "npx vitepress serve docs"
   },
-  "keywords": [
-    "Multividas",
-    "API documentation"
-  ],
-  "author": {
-    "name": "soulaimaneyh",
-    "email": "contact@soulaimaneyahya.com",
-    "website": "soulaimaneyahya.com"
-  },
-  "license": "MIT",
   "dependencies": {
     "vue": "^3.3.4"
   },
@@ -26,5 +25,9 @@
   },
   "vitepress": {
     "base": "/multividas-api-doc/"
+  },
+  "engines": {
+    "nvm": "18",
+    "node": "^18"
   }
 }

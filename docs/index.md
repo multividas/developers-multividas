@@ -25,7 +25,7 @@ head:
       content: Welcome to the Multividas API documentation, where you can explore the various features and functionalities provided by our powerful API. Whether you're a developer or an enthusiast, our API offers seamless integration and access to a range of functionalities.
   - - meta
     - name: keywords
-      content: multividas, multividas api documentation, multividas threads, multividas status, multividas help center, multividas developer, multvidas about us, multividas ads, multividas engineering blog, multividas developers documentation, multividas embed threads
+      content: multividas, multividas api documentation, multividas threads, multividas status, multividas help center, multividas developer, multividas about us, multividas ads, multividas engineering blog, multividas developers documentation, multividas embed threads
   - - meta
     - name: author
       content: Soulaimane Yahya
