@@ -63,7 +63,7 @@ To get the best results, you can sort it using the available fields for the sele
 Add `_sort` and `_order` params, By default, you'll get latest created data in ascending order:
 
 ```
-/users/{username}/threads?_sort=created_at&_order=desc
+/users/{username}/threads?_sort=createdAt&_order=desc
 ```
 
 
@@ -74,13 +74,13 @@ Filters are a powerful way to narrow search results, we update this feature freq
 Suppose we want a list of threads whose comments are disabled
 
 ```
-/users/{username}/threads?filters[0][field]=isCommentEnabled&filters[0][value]=false
+/users/{username}/threads?filters[0][field]=isCommentsEnabled&filters[0][value]=false
 ```
 
 You can also use multiple filters in one query.
 
 ```
-/users/{username}/threads?filters[0][field]=isCommentEnabled&filters[0][value]=false&filters[1][field]=isPinned&filters[1][value]=true
+/users/{username}/threads?filters[0][field]=isCommentsEnabled&filters[0][value]=false&filters[1][field]=isPinned&filters[1][value]=true
 ```
 
 The above request will bring threads whose comments are disabled and include pinned threads too.
