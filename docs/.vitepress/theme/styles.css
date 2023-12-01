@@ -1,11 +1,17 @@
 /* vars */
 :root {
     /* theme */
-    --vp-c-brand: #1f7aca !important;
-    --vp-c-brand-light: #2584d6 !important;
-    --vp-c-brand-lighter: #2b92eb !important;
-    --vp-c-brand-dark: #0f4c81 !important;
-    --vp-c-brand-darker: #0d4270 !important;
+    --vp-c-brand: #1a7bcf !important;
+    --vp-c-brand-1: #1a7bcf !important;
+    --vp-c-brand-1-hover: #1a7bcf !important;
+    --vp-c-brand-light: #1a7bcf !important;
+    --vp-c-brand-lighter: #1a7bcf !important;
+    --vp-c-brand-dark: #1a7bcf !important;
+    --vp-c-brand-darker: #1a7bcf !important;
+    --vp-button-brand-border: #1a7bcf;
+    --vp-button-brand-bg: #1a7bcf;
+    --vp-button-brand-hover-border: #0f4c81;
+    --vp-button-brand-hover-bg: #0f4c81;
 
     /* home page */
     --vp-home-hero-name-color: transparent;
