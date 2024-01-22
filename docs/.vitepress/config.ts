@@ -17,6 +17,12 @@ export default defineConfig({
     ['meta', { property: 'og:image', content: '/images/logo.svg' }],
     ['meta', { property: 'og:url', content: 'developers.multividas.com' }],
     ['meta', { property: 'og:site_name', content: 'Multividas API documentation' }],
+    // multividas tags
+    ['meta', { property: 'multividas:card', description: 'summary' }],
+    ['meta', { property: 'multividas:site', description: 'multividascom' }],
+    ['meta', { property: 'multividas:title', description: 'Multividas API documentation' }],
+    ['meta', { property: 'multividas:description', description: 'With Multividas.com you can share short texts and posts, leaving comments and have discussions on threads.' }],
+    ['meta', { property: 'multividas:image', description: 'https://avatars.githubusercontent.com/u/137715137?v=4' }],
   ],
 
   themeConfig: {
