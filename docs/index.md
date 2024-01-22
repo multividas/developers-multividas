@@ -36,10 +36,10 @@ hero:
   text: "API documentation"
   tagline: Multividas platform API enable developers to utilize Threads APIs
   image:
-    src: /images/logo-with-shadow.png
+    src: /images/logo-shadow-multividas-blogging-platform-multividas-social-media-blog-multividas-posts-threads-multividas-comments-discussions-multividas-short-texts-multividas-social-blogging.png
     alt: Multividas API documentation Logo
-    light: /images/logo-with-shadow.png
-    dark: /images/logo-with-shadow.png
+    light: /images/logo-shadow-multividas-blogging-platform-multividas-social-media-blog-multividas-posts-threads-multividas-comments-discussions-multividas-short-texts-multividas-social-blogging.png
+    dark: /images/logo-shadow-multividas-blogging-platform-multividas-social-media-blog-multividas-posts-threads-multividas-comments-discussions-multividas-short-texts-multividas-social-blogging.png
   actions:
     - theme: brand
       text: Rest API
