@@ -7,6 +7,6 @@ Multividas platform API enable developers to utilize Threads APIs
 ----- 
 Need helps? Reach me out
 
-> Email: contact@multividas.com
+> Email: multividasdotcom@gmail.com
 
 All the best :beer:
