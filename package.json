@@ -1,9 +1,9 @@
 {
-  "name": "multividas.com",
+  "name": "developers-multividas",
   "type": "module",
   "private": true,
-  "version": "1.0.0",
-  "description": "With Multividas.com you can share short texts and posts, leaving comments and have discussions on threads.",
+  "version": "1.0.2",
+  "description": "Welcome to Multividas Developers! Dive into our documentation to explore a wide range of features and functionalities.",
   "keywords": [
       "multividas",
       "multividas developers",
