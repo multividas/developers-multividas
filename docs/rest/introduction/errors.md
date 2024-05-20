@@ -1,6 +1,6 @@
 # Error Handling
 
-Every error includes a code, the HTTP status code, a short detail, and an additional meta can be used to help the Multividas support team investigate in your error quickly.
+Every error includes a code, the HTTP status code, a short detail, and an additional meta can be used to help Multividas support team investigate in your error quickly.
 
 ## Error Types
 

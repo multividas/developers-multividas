@@ -1,6 +1,6 @@
 # User Model at Multividas.com
 
-This document describes the attributes of the User and Profile Models used in the multividas.com application.
+This document describes the attributes of the User and Profile Models used in Multividas.com application.
 
 ## User Attributes
 

@@ -6,8 +6,9 @@
   "description": "With Multividas.com you can share short texts and posts, leaving comments and have discussions on threads.",
   "keywords": [
       "multividas",
-      "multividas blogs",
-      "multividas threads"
+      "multividas developers",
+      "multividas api docs",
+      "multividas ui"
   ],
   "authors": [
       {
@@ -28,7 +29,7 @@
     "vitepress": "^1.0.0-rc.4"
   },
   "vitepress": {
-    "base": "/multividas-api-doc/"
+    "base": "/developers-multividas/"
   },
   "engines": {
     "nvm": "20",

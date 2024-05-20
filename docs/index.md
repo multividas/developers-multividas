@@ -1,9 +1,9 @@
 ---
 title: Multividas
 
-titleTemplate: Multividas API documentation
+titleTemplate: Multividas Developers
 
-description: Welcome to the Multividas API documentation, where you can explore the various features and functionalities provided by our powerful API. Whether you're a developer or an enthusiast, our API offers seamless integration and access to a range of functionalities.
+description: Welcome to Multividas Developers! Dive into our documentation to explore a wide range of features and functionalities.
 
 editLink: true
 
@@ -22,10 +22,10 @@ layout: home
 head:
   - - meta
     - name: description
-      content: Welcome to the Multividas API documentation, where you can explore the various features and functionalities provided by our powerful API. Whether you're a developer or an enthusiast, our API offers seamless integration and access to a range of functionalities.
+      content: Welcome to Multividas Developers! Dive into our documentation to explore a wide range of features and functionalities.
   - - meta
     - name: keywords
-      content: Multividas API documentation
+      content: Multividas Developers
   - - link
     - rel: icon
       type: image/svg+xml
@@ -33,11 +33,11 @@ head:
 
 hero:
   name: "Multividas"
-  text: "API documentation"
-  tagline: Multividas platform API enable developers to utilize Threads APIs
+  text: "Multividas UI Library & API documentation"
+  tagline: "You can explore various features and functionalities provided by our documentation."
   image:
     src: /images/logo-shadow-multividas-blogging-platform-multividas-social-media-blog-multividas-posts-threads-multividas-comments-discussions-multividas-short-texts-multividas-social-blogging.png
-    alt: Multividas API documentation Logo
+    alt: Multividas Developers Logo
     light: /images/logo-shadow-multividas-blogging-platform-multividas-social-media-blog-multividas-posts-threads-multividas-comments-discussions-multividas-short-texts-multividas-social-blogging.png
     dark: /images/logo-shadow-multividas-blogging-platform-multividas-social-media-blog-multividas-posts-threads-multividas-comments-discussions-multividas-short-texts-multividas-social-blogging.png
   actions:
@@ -47,9 +47,12 @@ hero:
     - theme: brand
       text: GraphQL
       link: /graphql/introduction/getting-started
+    - theme: brand
+      text: Multividas UI
+      link: /multividas-ui/introduction/getting-started
     - theme: alt
       text: View on Github
-      link: https://github.com/multividas/multividas-api-doc
+      link: https://github.com/multividas/developers-multividas
 
 features:
   - icon: 🔑
