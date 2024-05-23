@@ -33,7 +33,7 @@ head:
 
 hero:
   name: "Multividas"
-  text: "Multividas UI Library & API documentation"
+  text: "UI Library & API documentation"
   tagline: "You can explore various features and functionalities provided by our documentation."
   image:
     src: /images/logo-shadow-multividas-blogging-platform-multividas-social-media-blog-multividas-posts-threads-multividas-comments-discussions-multividas-short-texts-multividas-social-blogging.png

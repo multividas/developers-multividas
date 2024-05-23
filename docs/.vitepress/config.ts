@@ -24,7 +24,7 @@ export default defineConfig({
     ['meta', { property: 'multividas:card', description: 'summary' }],
     ['meta', { property: 'multividas:site', description: 'multividascom' }],
     ['meta', { property: 'multividas:title', description: 'Multividas Developers' }],
-    ['meta', { property: 'multividas:description', description: 'With Multividas.com you can share short texts and posts, leaving comments and have discussions on threads.' }],
+    ['meta', { property: 'multividas:description', description: 'With Multividas, you can share threads, publish articles and news.' }],
     ['meta', { property: 'multividas:image', description: 'https://avatars.githubusercontent.com/u/137715137?v=4' }],
   ],
 
@@ -48,7 +48,7 @@ export default defineConfig({
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2023-present Soulaimane Yahya'
+      copyright: `Copyright © ${(new Date()).getFullYear()}-present Soulaimane Yahya`
     }
   }
 })

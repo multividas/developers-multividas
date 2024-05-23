@@ -12,8 +12,8 @@
   ],
   "authors": [
     {
-      "name": "soulaimaneyahya",
-      "email": "contact@soulaimaneyahya.com"
+      "name": "Multividas",
+      "email": "multividasdotcom@gmail.com"
     }
   ],
   "scripts": {
@@ -29,6 +29,14 @@
   },
   "vitepress": {
     "base": "/developers-multividas/"
+  },
+  "bugs": {
+    "url": "https://github.com/multividas/developers-multividas/issues"
+  },
+  "homepage": "https://github.com/multividas/developers-multividas",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/multividas/developers-multividas.git"
   },
   "engines": {
     "nvm": "20",
