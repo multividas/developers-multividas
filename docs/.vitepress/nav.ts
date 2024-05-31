@@ -17,6 +17,7 @@ export const nav = () => {
       text: 'Learn more',
       items: [
         { text: 'Contributing', link: 'https://github.com/multividas' },
+        { text: 'Changelog', link: 'https://github.com/multividas/developers-multividas/blob/main/CHANGELOG.md' },
       ]
     }
   ]
@@ -25,12 +26,6 @@ export const nav = () => {
 /**
  * Developer Products
  */
-export const sidebarDeveloperProducts = () => {
-  return [
-
-  ]
-};
-
 export const sideBarMultividasRest = () => {
   return [
     {
@@ -121,12 +116,6 @@ export const sidebarMultiChat = () => {
 /**
  * Open Source
  */
-export const sidebarOpenSource = () => {
-  return [
-
-  ]
-};
-
 export const sidebarMultividasUi = () => {
   return [
     {
