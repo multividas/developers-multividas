@@ -3,7 +3,7 @@ title: Multividas
 
 titleTemplate: Multividas Developers
 
-description: Welcome to Multividas Developers! Dive into our documentation to explore a wide range of features and functionalities.
+description: Welcome to Multividas Developers! Explore various features and functionalities through our API documentation.
 
 editLink: true
 
@@ -22,7 +22,7 @@ layout: home
 head:
   - - meta
     - name: description
-      content: Welcome to Multividas Developers! Dive into our documentation to explore a wide range of features and functionalities.
+      content: Welcome to Multividas Developers! Explore various features and functionalities through our API documentation.
   - - meta
     - name: keywords
       content: Multividas Developers
@@ -33,8 +33,8 @@ head:
 
 hero:
   name: "Multividas"
-  text: "UI Library & API documentation"
-  tagline: "You can explore various features and functionalities provided by our documentation."
+  text: "API documentation"
+  tagline: "Explore various features and functionalities through our API documentation."
   image:
     src: /images/logo-shadow-multividas-blogging-platform-multividas-social-media-blog-multividas-posts-threads-multividas-comments-discussions-multividas-short-texts-multividas-social-blogging.png
     alt: Multividas Developers Logo
@@ -42,29 +42,27 @@ hero:
     dark: /images/logo-shadow-multividas-blogging-platform-multividas-social-media-blog-multividas-posts-threads-multividas-comments-discussions-multividas-short-texts-multividas-social-blogging.png
   actions:
     - theme: brand
-      text: Rest API
-      link: /rest/introduction/getting-started
+      text: Multividas
+      link: /products/multividas/getting-started
+
     - theme: brand
-      text: GraphQL
-      link: /graphql/introduction/getting-started
-    - theme: brand
-      text: Multividas UI
-      link: /multividas-ui/introduction/getting-started
+      text: MultiChat
+      link: /products/multichat/getting-started
+
     - theme: alt
-      text: View on Github
-      link: https://github.com/multividas/developers-multividas
+      text: View on GitHub
+      link: https://github.com/multividas
 
 features:
-  - icon: 🔑
-    title: Typed entities
-    details: Our platform offers a flexible DX (Developer Experience), made possible by providing references for the returned entities.
-    link: /rest/introduction/getting-started
-  - icon: 💡
-    title: Full coverage
-    details: With our rich API, our documentation offers a comprehensive overview of all the possibilities our platform has to offer.
-    link: /rest/introduction/getting-started
-  - icon: ⚡️
-    title: Beginner friendly
-    details: The rest API includes detailed how-to guides, ensuring a seamless experience for everyone.
-    link: /rest/introduction/getting-started
+  - icon:
+      src: /images/logo.svg
+    title: Multividas.com
+    details: Multividas is a social media platform where you can share threads, publish articles and news.
+    link: /products/multividas/getting-started
+
+  - icon:
+      src: /images/logo.svg
+    title: MultiChat.network
+    details: MultiChat is a messaging app with focus on security & user experience.
+    link: /products/multichat/getting-started
 ---

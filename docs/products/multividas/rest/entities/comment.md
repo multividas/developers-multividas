@@ -9,7 +9,7 @@ This document describes the attributes of the Comment model used in Multividas.c
 | commentableType  | string      | Polymorphic type of the commentable entity
 | commentableId    | string      | Polymorphic ID of the commentable entity
 | isAnonymously    | boolean     | Comment anonymous status
-| user             | object      | [User Object](/rest/entities/user#user) associated with the comment
-| tags             | object      | [Tag Object](/rest/entities/tag#tag) associated with the comment
+| user             | object      | [User Object](/products/multividas/rest/entities/user#user) associated with the comment
+| tags             | object      | [Tag Object](/products/multividas/rest/entities/tag#tag) associated with the comment
 | createdAt        | string, null| Comment created date
 | updatedAt        | string, null| Comment updated date

@@ -1,4 +1,4 @@
-# Getting started - Multividas UI
+# Multividas UI
 
 Welcome to Multividas UI, a Vue 3 component library by [Multividas.com](https://multividas.com). Designed to enhance your development experience, Multividas UI offers a rich set of Vue.js components.
 

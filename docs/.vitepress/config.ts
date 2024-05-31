@@ -1,7 +1,7 @@
 // Vitepress
 import { defineConfig } from 'vitepress'
 // Partials
-import { nav, sidebarRestApi, sidebarGraphQL, sidebarMultividasUi } from './nav'
+import { nav, sideBarMultividasRest, sideBarMultividasGraphql, sidebarMultiChat, sidebarMultividasUi } from './nav'
 
 export default defineConfig({
   lang: 'en-US',
@@ -16,7 +16,7 @@ export default defineConfig({
     ['meta', { property: 'og:locale', content: 'en_US' }],
     ['meta', { property: 'og:type', content: 'Multividas Developers' }],
     ['meta', { property: 'og:title', content: 'Multividas Developers' }],
-    ['meta', { property: 'og:description', content: 'Welcome to Multividas Developers! Dive into our documentation to explore a wide range of features and functionalities.' }],
+    ['meta', { property: 'og:description', content: 'Welcome to Multividas Developers! Explore various features and functionalities through our API documentation.' }],
     ['meta', { property: 'og:image', content: '/images/logo.svg' }],
     ['meta', { property: 'og:url', content: 'developers.multividas.com' }],
     ['meta', { property: 'og:site_name', content: 'Multividas Developers' }],
@@ -35,9 +35,9 @@ export default defineConfig({
     nav: nav(),
 
     sidebar: {
-      '/rest/': sidebarRestApi(),
-      '/graphql/': sidebarGraphQL(),
-      '/multividas-ui/': sidebarMultividasUi(),
+      '/products/multividas/rest/': sideBarMultividasRest(),
+      '/products/multividas/graphql/': sideBarMultividasGraphql(),
+      '/open-source/multividas-ui': sidebarMultividasUi(),
     },
 
     socialLinks: [
@@ -48,7 +48,7 @@ export default defineConfig({
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: `Copyright © ${(new Date()).getFullYear()}-present Soulaimane Yahya`
+      copyright: `Copyright © ${(new Date()).getFullYear()}-present Multividas`
     }
   }
 })
