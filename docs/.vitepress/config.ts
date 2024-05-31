@@ -1,7 +1,7 @@
 // Vitepress
 import { defineConfig } from 'vitepress'
 // Partials
-import { nav, sideBarMultividasRest, sideBarMultividasGraphql, sidebarMultiChat, sidebarMultividasUi } from './nav'
+import { nav, sideBarMultividasRest, sideBarMultividasGraphql, sidebarMultividasUi } from './nav'
 
 export default defineConfig({
   lang: 'en-US',
