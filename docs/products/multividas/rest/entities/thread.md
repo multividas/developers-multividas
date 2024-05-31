@@ -13,8 +13,8 @@ This document describes the attributes of the Thread model used in Multividas.co
 | isAnonymously     | boolean      | Thread anonymous status
 | isCommentsEnabled | boolean      | Comment status for the thread
 | files             | array, null  | [File Array of Objects](#file) associated with the thread
-| tags              | array        | [Tag Array](/rest/entities/tag#tag) associated with the thread
-| user              | object       | [User Object](/rest/entities/user#user) associated with the thread
+| tags              | array        | [Tag Array](/products/multividas/rest/entities/tag#tag) associated with the thread
+| user              | object       | [User Object](/products/multividas/rest/entities/user#user) associated with the thread
 | createdAt         | string, null | Thread created date
 | updatedAt         | string, null | Thread updated date
 
