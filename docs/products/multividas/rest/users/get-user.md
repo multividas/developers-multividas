@@ -20,29 +20,30 @@ Use the provided endpoint with the `GET` method to access user details.
 
 ```json
 {
-    "data": {
-        "id": "01hered6ssgz8en3prvn5kx1jp",
-        "name": "Soulaimane Yahya",
-        "username": "soulaimaneyh",
-        "email": "contact@soulaimaneyahya.com",
-        "phone": "+212767676767",
-        "profile": {
-            "id": "01hered6ssgz8en3prvn5kx1jp",
-            "bio": "Founder and CEO at Multividas",
-            "links": [
-                "https://soulaimaneyahya.com"
-            ],
-            "location": "Tétouan",
-            "lang": "en",
-            "gender": "male",
-            "birthdate": "2001-07-07",
-        },
-        "userAvatar": "https://static-assets.multividas.com/storage/factory/users/soulaimaneyh/1.jpg",
-        "userCover": "https://static-assets.multividas.com/storage/factory/covers/1.jpg",
-        "createdAt": "2001-07-07T05:10:19.000000Z"
+  "data": {
+    "id": "01hered6ssgz8en3prvn5kx1jp",
+    "name": "Soulaimane Yahya",
+    "username": "soulaimaneyh",
+    "email": "contact@soulaimaneyahya.com",
+    "phone": "+212767676767",
+    "profile": {
+      "id": "01hered6ssgz8en3prvn5kx1jp",
+      "bio": "Founder and CEO at Multividas",
+      "links": [
+        "https://soulaimaneyahya.com"
+      ],
+      "country": "ma",
+      "location": "Tétouan",
+      "lang": "en",
+      "gender": "male",
+      "birthdate": "2001-07-07",
     },
-    "code": 200,
-    "meta": {}
+    "userAvatar": "https://static-assets.multividas.com/storage/factory/users/soulaimaneyh/1.jpg",
+    "userCover": "https://static-assets.multividas.com/storage/factory/covers/1.jpg",
+    "createdAt": "2001-07-07T05:10:19.000000Z"
+  },
+  "code": 200,
+  "meta": {}
 }
 ```
 
@@ -58,19 +59,20 @@ Use the provided endpoint with the `GET` method to access user details.
 
 ```json
 {
-    "data": {
-        "id": "01hered6ssgz8en3prvn5kx1jp",
-        "bio": "Founder and CEO at Multividas",
-        "links": [
-            "https://soulaimaneyahya.com"
-        ],
-        "location": "Tétouan",
-        "lang": "en",
-        "gender": "male",
-        "birthdate": "2001-07-07",
-    },
-    "code": 200,
-    "meta": {}
+  "data": {
+    "id": "01hered6ssgz8en3prvn5kx1jp",
+    "bio": "Founder and CEO at Multividas",
+    "links": [
+      "https://soulaimaneyahya.com"
+    ],
+    "country": "ma",
+    "location": "Tétouan",
+    "lang": "en",
+    "gender": "male",
+    "birthdate": "2001-07-07",
+  },
+  "code": 200,
+  "meta": {}
 }
 ```
 

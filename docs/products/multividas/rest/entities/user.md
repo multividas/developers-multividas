@@ -23,6 +23,7 @@ This document describes the attributes of the User and Profile Models used in Mu
 | id                  | string         | Unique identifier (ULID)
 | bio                 | string, null   | User's biography
 | links               | Object, []     | User's Links (if available)
+| country             | string, null   | User's country
 | location            | string, null   | User's location
 | lang                | string, null   | User's prefernce language
 | gender              | string, null   | User's gender

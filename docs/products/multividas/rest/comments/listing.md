@@ -56,6 +56,7 @@ Retrieves a thread's comments on multividas. `GET` request returns comments rela
                     "id": "01hej1pp57mvc76znegmxvnnfd",
                     "bio": "Lorem ipsum dolor sit amet.",
                     "links": null,
+                    "country": "usa",
                     "location": "New York City",
                     "lang": "en",
                     "gender": "male",

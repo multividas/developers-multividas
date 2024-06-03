@@ -45,6 +45,7 @@ Method: `GET`
             "links": [
                 "https://soulaimaneyahya.com"
             ],
+            "country": "ma",
             "location": "Tétouan",
             "lang": "en",
             "gender": "male",
@@ -99,19 +100,20 @@ Method: `GET`
 
 ```json
 {
-    "data": {
-        "id": "01hered6ssgz8en3prvn5kx1jp",
-        "bio": "Founder and CEO at Multividas",
-        "links": [
-            "https://soulaimaneyahya.com"
-        ],
-        "location": "Tétouan",
-        "lang": "en",
-        "gender": "male",
-        "birthdate": "2001-07-07",
-    },
-    "code": 200,
-    "meta": {}
+  "data": {
+    "id": "01hered6ssgz8en3prvn5kx1jp",
+    "bio": "Founder and CEO at Multividas",
+    "links": [
+      "https://soulaimaneyahya.com"
+    ],
+    "country": "ma",
+    "location": "Tétouan",
+    "lang": "en",
+    "gender": "male",
+    "birthdate": "2001-07-07",
+  },
+  "code": 200,
+  "meta": {}
 }
 ```
 
@@ -121,8 +123,8 @@ Unauthenticated user or invalid **`Bearer Token`**
 
 ```json
 {
-    "info": "Unauthenticated",
-    "code": 401,
-    "meta": {}
+  "info": "Unauthenticated",
+  "code": 401,
+  "meta": {}
 }
 ```
