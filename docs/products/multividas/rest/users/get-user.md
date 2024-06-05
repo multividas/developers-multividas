@@ -76,4 +76,34 @@ Use the provided endpoint with the `GET` method to access user details.
 }
 ```
 
+## Get Profile Avatar
+
+### Resource URL
+
+`https://api.multividas.com/rest/v1/users/{user:username}/profile/avatar` 
+
+### Response [200]
+
+```json
+{
+  "avatar": "https://static-assets.multividas.com/storage/avatars/x/x.webp",
+  "code": 200
+}
+```
+
+## Get Profile Cover
+
+### Resource URL
+
+`https://api.multividas.com/rest/v1/users/{user:username}/profile/cover` 
+
+### Response [200]
+
+```json
+{
+  "avatar": "https://static-assets.multividas.com/storage/covers/x/x.webp",
+  "code": 200
+}
+```
+
 Certain fields (gender, date of birth, etc.) may be hidden (null) depending on the user's privacy settings.
