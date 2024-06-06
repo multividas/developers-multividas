@@ -78,6 +78,14 @@ Use the provided endpoint with the `GET` method to access user details.
 
 ## Get Profile Avatar
 
+### Resource Information
+
+| Method                                | GET  |
+|---------------------------------------|------|
+| Response formats                      | JSON |
+| Requires authentication?              | Yes  |
+| Rate Limiting                         | 10 per minute  |
+
 ### Resource URL
 
 `https://api.multividas.com/rest/v1/users/{user:username}/profile/avatar` 
@@ -91,7 +99,45 @@ Use the provided endpoint with the `GET` method to access user details.
 }
 ```
 
+## Get Photos Avatars
+
+### Resource Information
+
+| Method                                | GET  |
+|---------------------------------------|------|
+| Response formats                      | JSON |
+| Requires authentication?              | Yes  |
+
+### Resource URL
+
+`https://api.multividas.com/rest/v1/users/{user:username}/profile/aphotos/vatars` 
+
+### Response [200]
+
+```json
+{
+  "data": [
+    {
+      "id": "x",
+      "type": "avatar",
+      "url": "https://static-assets.multividas.com/storage/avatars/x/x.webp",
+      "mimetype": "image/webp",
+      "createdAt": "2024-01-04 02:31:28"
+    }
+  ],
+  "code": 200,
+  "meta": {}
+}
+
 ## Get Profile Cover
+
+### Resource Information
+
+| Method                                | GET  |
+|---------------------------------------|------|
+| Response formats                      | JSON |
+| Requires authentication?              | Yes  |
+| Rate Limiting                         | 10 per minute  |
 
 ### Resource URL
 
@@ -103,6 +149,37 @@ Use the provided endpoint with the `GET` method to access user details.
 {
   "avatar": "https://static-assets.multividas.com/storage/covers/x/x.webp",
   "code": 200
+}
+```
+
+## Get Photos Covers
+
+### Resource Information
+
+| Method                                | GET  |
+|---------------------------------------|------|
+| Response formats                      | JSON |
+| Requires authentication?              | Yes  |
+
+### Resource URL
+
+`https://api.multividas.com/rest/v1/users/{user:username}/profile/photos/covers` 
+
+### Response [200]
+
+```json
+{
+  "data": [
+    {
+      "id": "x",
+      "type": "cover",
+      "url": "https://static-assets.multividas.com/storage/covers/x/x.webp",
+      "mimetype": "image/webp",
+      "createdAt": "2024-01-04 02:31:28"
+    }
+  ],
+  "code": 200,
+  "meta": {}
 }
 ```
 
