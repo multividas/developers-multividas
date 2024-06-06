@@ -7,7 +7,7 @@ Use the provided endpoint with the `GET` method to access user details.
 
 ### Resource URL
 
-`https://api.multividas.com/rest/v1/users/{user:username}` 
+`https://api.multividas.com/rest/v1/users/{user:username}`
 
 ### Resource Information
 
@@ -53,7 +53,7 @@ Use the provided endpoint with the `GET` method to access user details.
 
 ### Resource URL
 
-`https://api.multividas.com/rest/v1/users/{user:username}/profile` 
+`https://api.multividas.com/rest/v1/users/{user:username}/profile`
 
 ### Response [200]
 
@@ -88,7 +88,7 @@ Use the provided endpoint with the `GET` method to access user details.
 
 ### Resource URL
 
-`https://api.multividas.com/rest/v1/users/{user:username}/profile/avatar` 
+`https://api.multividas.com/rest/v1/users/{user:username}/profile/avatar`
 
 ### Response [200]
 
@@ -110,7 +110,7 @@ Use the provided endpoint with the `GET` method to access user details.
 
 ### Resource URL
 
-`https://api.multividas.com/rest/v1/users/{user:username}/profile/aphotos/vatars` 
+`https://api.multividas.com/rest/v1/users/{user:username}/profile/photos/avatars`
 
 ### Response [200]
 
@@ -128,6 +128,7 @@ Use the provided endpoint with the `GET` method to access user details.
   "code": 200,
   "meta": {}
 }
+```
 
 ## Get Profile Cover
 
@@ -141,7 +142,7 @@ Use the provided endpoint with the `GET` method to access user details.
 
 ### Resource URL
 
-`https://api.multividas.com/rest/v1/users/{user:username}/profile/cover` 
+`https://api.multividas.com/rest/v1/users/{user:username}/profile/cover`
 
 ### Response [200]
 
@@ -163,7 +164,7 @@ Use the provided endpoint with the `GET` method to access user details.
 
 ### Resource URL
 
-`https://api.multividas.com/rest/v1/users/{user:username}/profile/photos/covers` 
+`https://api.multividas.com/rest/v1/users/{user:username}/profile/photos/covers`
 
 ### Response [200]
 
