@@ -2,7 +2,7 @@
 
 ## Greeting
 
-Endpoint: `https://api.multividas.com/rest/v1/user/greeting` 
+Endpoint: `https://api.multividas.com/rest/v1/user/greeting`
 
 Method: `GET`
 
