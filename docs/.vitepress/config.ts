@@ -1,7 +1,16 @@
 // Vitepress
 import { defineConfig } from 'vitepress'
 // Partials
-import { nav, sideBarMultividasRest, sideBarMultividasGraphql, sidebarMultividasUi } from './nav'
+import {
+  nav,
+  // multividas
+  sideBarMultividasRest,
+  sideBarMultividasGraphql,
+  // multichat
+  sideBarMultiChatRest,
+  // open source
+  sidebarMultividasUi
+} from './nav'
 
 export default defineConfig({
   lang: 'en-US',
@@ -37,6 +46,7 @@ export default defineConfig({
     sidebar: {
       '/products/multividas/rest/': sideBarMultividasRest(),
       '/products/multividas/graphql/': sideBarMultividasGraphql(),
+      '/products/multichat/rest/': sideBarMultiChatRest(),
       '/open-source/multividas-ui': sidebarMultividasUi(),
     },
 

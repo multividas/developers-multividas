@@ -101,13 +101,37 @@ export const sideBarMultividasGraphql = () => {
   ]
 }
 
-export const sidebarMultiChat = () => {
+export const sideBarMultiChatRest = () => {
   return [
     {
       text: 'Introduction',
       collapsed: false,
       items: [
-        { text: 'Getting Started', link: '/products/multichat/getting-started' },
+        { text: 'Getting Started', link: '/products/multichat/rest/introduction/getting-started' },
+      ]
+    },
+    {
+      text: 'Entities',
+      collapsed: true,
+      items: [
+        { text: 'Message', link: '/products/multichat/rest/entities/message' },
+      ]
+    },
+    {
+      text: 'Conversation',
+      collapsed: true,
+      items: [
+        { text: 'Listing', link: '/products/multichat/rest/conversation/listing' },
+        { text: 'Clear', link: '/products/multichat/rest/conversation/clear' },
+      ]
+    },
+    {
+      text: 'Message',
+      collapsed: true,
+      items: [
+        { text: 'Send', link: '/products/multichat/rest/messages/send' },
+        { text: 'Delete', link: '/products/multichat/rest/messages/delete' },
+        { text: 'Status', link: '/products/multichat/rest/messages/status' },
       ]
     }
   ]
